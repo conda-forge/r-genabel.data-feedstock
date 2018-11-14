@@ -14,9 +14,8 @@ Summary: GenABEL.data package consists of a data set used by GenABEL functions
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-genabel.data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-genabel.data-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-genabel.data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-genabel.data-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-genabel.data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-genabel-data-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-genabel.data-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-genabel.data-feedstock)
 
 Current release info
 ====================
