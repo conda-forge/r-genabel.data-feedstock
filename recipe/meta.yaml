@@ -8,7 +8,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: GenABEL.data_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/GenABEL.data_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/GenABEL.data/GenABEL.data_{{ version }}.tar.gz
@@ -16,15 +15,14 @@ source:
 
 build:
   noarch: generic
-  number: 1002
-
+  number: 1003
   rpaths:
     - lib/R/lib/
     - lib/
+    
 requirements:
-  build:
+  host:
     - r-base
-
   run:
     - r-base
 
@@ -35,15 +33,11 @@ test:
 
 about:
   home: http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: GenABEL.data package consists of a data set used by GenABEL functions
   license_family: GPL3
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
