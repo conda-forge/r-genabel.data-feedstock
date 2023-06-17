@@ -1,11 +1,11 @@
-About r-genabel.data
-====================
+About r-genabel.data-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-genabel.data-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-genabel.data-feedstock/blob/main/LICENSE.txt)
 
 Summary: GenABEL.data package consists of a data set used by GenABEL functions
 
